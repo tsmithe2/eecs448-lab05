@@ -6,7 +6,8 @@
 
 	if ($mysqli->connect_errno)
 	{
-		printf("connect failed");
+		printf("connect failed: %s\n", $mysqli->connect_error);
+		exit();
 	}
 	if ($user_name == $null)
 	{
