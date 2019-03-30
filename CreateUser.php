@@ -1,5 +1,5 @@
 <?php
-	$user_name = $POST["username"];
+	$user_name = $_POST["username"];
 	$mysqli = new mysqli("mysql.eecs.ku.edu", "t340s709", "ke3ve4Ni", "t340s709");
 	$null = "";
 	$erMessage = "An error occured: ";
