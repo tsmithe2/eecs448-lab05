@@ -8,7 +8,7 @@
 	{
 		printf("connect failed");
 	}
-	if ($username == $null)
+	if ($user_name == $null)
 	{
 		echo "<p>" . $erMessage . "You must enter a username.</p>";
 	}
